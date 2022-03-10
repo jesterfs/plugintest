@@ -1,0 +1,73 @@
+[09-Mar-2022 20:00:53 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jeste\Local Sites\plugintest\app\public\wp-content\plugins\simple-example-plugin\simple-example-plugin.php on line 368
+[09-Mar-2022 20:00:54 UTC] PHP Notice:  is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php on line 5768
+[09-Mar-2022 20:00:54 UTC] PHP Stack trace:
+[09-Mar-2022 20:00:54 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[09-Mar-2022 20:00:54 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[09-Mar-2022 20:00:54 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:152
+[09-Mar-2022 20:00:54 UTC] PHP   4. wp_die() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:233
+[09-Mar-2022 20:00:54 UTC] PHP   5. _default_wp_die_handler() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3661
+[09-Mar-2022 20:00:54 UTC] PHP   6. wp_robots() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3737
+[09-Mar-2022 20:00:54 UTC] PHP   7. apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:32
+[09-Mar-2022 20:00:54 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\plugin.php:189
+[09-Mar-2022 20:00:54 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-hook.php:307
+[09-Mar-2022 20:00:54 UTC] PHP  10. is_embed() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:93
+[09-Mar-2022 20:00:54 UTC] PHP  11. _doing_it_wrong() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\query.php:881
+[09-Mar-2022 20:00:54 UTC] PHP  12. trigger_error() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:5768
+[09-Mar-2022 20:00:54 UTC] PHP Notice:  is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php on line 5768
+[09-Mar-2022 20:00:54 UTC] PHP Stack trace:
+[09-Mar-2022 20:00:54 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[09-Mar-2022 20:00:54 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[09-Mar-2022 20:00:54 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:152
+[09-Mar-2022 20:00:54 UTC] PHP   4. wp_die() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:233
+[09-Mar-2022 20:00:54 UTC] PHP   5. _default_wp_die_handler() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3661
+[09-Mar-2022 20:00:54 UTC] PHP   6. wp_robots() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3737
+[09-Mar-2022 20:00:54 UTC] PHP   7. apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:32
+[09-Mar-2022 20:00:54 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\plugin.php:189
+[09-Mar-2022 20:00:54 UTC] PHP   9. wp_robots_noindex_search() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-hook.php:307
+[09-Mar-2022 20:00:54 UTC] PHP  10. is_search() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:119
+[09-Mar-2022 20:00:54 UTC] PHP  11. _doing_it_wrong() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\query.php:699
+[09-Mar-2022 20:00:54 UTC] PHP  12. trigger_error() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:5768
+[09-Mar-2022 20:01:01 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jeste\Local Sites\plugintest\app\public\wp-content\plugins\simple-example-plugin\simple-example-plugin.php on line 368
+[09-Mar-2022 20:01:01 UTC] PHP Notice:  is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php on line 5768
+[09-Mar-2022 20:01:01 UTC] PHP Stack trace:
+[09-Mar-2022 20:01:01 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[09-Mar-2022 20:01:01 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[09-Mar-2022 20:01:01 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:152
+[09-Mar-2022 20:01:01 UTC] PHP   4. wp_die() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:233
+[09-Mar-2022 20:01:01 UTC] PHP   5. _default_wp_die_handler() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3661
+[09-Mar-2022 20:01:01 UTC] PHP   6. wp_robots() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3737
+[09-Mar-2022 20:01:01 UTC] PHP   7. apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:32
+[09-Mar-2022 20:01:01 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\plugin.php:189
+[09-Mar-2022 20:01:01 UTC] PHP   9. wp_robots_noindex_embeds() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-hook.php:307
+[09-Mar-2022 20:01:01 UTC] PHP  10. is_embed() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:93
+[09-Mar-2022 20:01:01 UTC] PHP  11. _doing_it_wrong() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\query.php:881
+[09-Mar-2022 20:01:01 UTC] PHP  12. trigger_error() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:5768
+[09-Mar-2022 20:01:01 UTC] PHP Notice:  is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php on line 5768
+[09-Mar-2022 20:01:01 UTC] PHP Stack trace:
+[09-Mar-2022 20:01:01 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:0
+[09-Mar-2022 20:01:01 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:57
+[09-Mar-2022 20:01:01 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:152
+[09-Mar-2022 20:01:01 UTC] PHP   4. wp_die() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-fatal-error-handler.php:233
+[09-Mar-2022 20:01:01 UTC] PHP   5. _default_wp_die_handler() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3661
+[09-Mar-2022 20:01:01 UTC] PHP   6. wp_robots() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:3737
+[09-Mar-2022 20:01:01 UTC] PHP   7. apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:32
+[09-Mar-2022 20:01:01 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\plugin.php:189
+[09-Mar-2022 20:01:01 UTC] PHP   9. wp_robots_noindex_search() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\class-wp-hook.php:307
+[09-Mar-2022 20:01:01 UTC] PHP  10. is_search() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\robots-template.php:119
+[09-Mar-2022 20:01:01 UTC] PHP  11. _doing_it_wrong() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\query.php:699
+[09-Mar-2022 20:01:01 UTC] PHP  12. trigger_error() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\functions.php:5768
+[10-Mar-2022 17:12:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\wp-db.php on line 1753
+[10-Mar-2022 17:12:28 UTC] PHP Stack trace:
+[10-Mar-2022 17:12:28 UTC] PHP   1. {main}() C:\Users\jeste\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[10-Mar-2022 17:12:28 UTC] PHP   2. include() C:\Users\jeste\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[10-Mar-2022 17:12:28 UTC] PHP   3. include() phar://C:/Users/jeste/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[10-Mar-2022 17:12:28 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/jeste/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[10-Mar-2022 17:12:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/jeste/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[10-Mar-2022 17:12:28 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/jeste/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[10-Mar-2022 17:12:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/jeste/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[10-Mar-2022 17:12:28 UTC] PHP   8. require() phar://C:/Users/jeste/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[10-Mar-2022 17:12:28 UTC] PHP   9. require_wp_db() C:\Users\jeste\Local Sites\plugintest\app\public\wp-settings.php:124
+[10-Mar-2022 17:12:28 UTC] PHP  10. wpdb->__construct() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\load.php:561
+[10-Mar-2022 17:12:28 UTC] PHP  11. wpdb->db_connect() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\wp-db.php:724
+[10-Mar-2022 17:12:28 UTC] PHP  12. mysqli_real_connect() C:\Users\jeste\Local Sites\plugintest\app\public\wp-includes\wp-db.php:1753
