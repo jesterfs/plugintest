@@ -37,7 +37,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-/** enable debug mode */
+/** enable debug mode s */
 define('WP_DEBUG', true);
 
 /** log debug info */
